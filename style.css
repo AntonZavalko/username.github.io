@@ -1,0 +1,149 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   display: grid;
+}
+
+
+
+.header {
+   width: 100%;
+   height: 100px;
+   background: rgb(27, 82, 21);
+   font-family: 'Roboto Slab', serif;
+}
+
+.container {
+   display: flex;
+   min-height: 100vh;
+}
+
+.sidebar {
+   width: 15%;
+   background: rgb(16, 107, 30);
+   text-align: center;
+   font-family: 'Roboto Slab', serif;
+   font-size: 20px;
+   font-style: normal;
+   
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+   .sidebar {
+      
+      min-width: 160px;
+   }
+ }
+.sidebar p a {
+   text-decoration: none;
+   line-height: 1.9;
+   color: #FFFFFF;
+   text-transform: uppercase;
+   font-size: 100%;
+   padding: 7px 13px;
+   border-radius: 3px;
+}
+
+.sidebar h2 {
+   color: #FFFFFF;
+   font-family: 'Roboto Slab', serif;
+}
+
+.sidebar2 {
+   
+   width: 15%;
+   background: rgb(16, 107, 30);
+   align-items: left;
+   color: white;
+   text-align: center;
+   font-family: 'Roboto Slab', serif;
+   font-size: 20px;
+   font-style: inherit; 
+}
+
+.sidebar2 p a {
+   text-decoration: none;
+   line-height: 1.9;
+   color: #FFFFFF;
+   font-size: 20px;
+   padding: 7px 13px;
+   border-radius: 3px;
+}
+
+.content {
+   width: 70%;
+   background: rgb(47, 116, 38);
+   min-width: 100px;
+   color: white;
+   text-align: center;
+   font-family: 'Roboto Slab', serif;
+   font-size: 25px;
+}
+
+.content p {
+   font-style: normal;
+   
+} 
+
+
+.footer {
+   width: 100%;
+   height: 100px;
+   background: rgb(27, 82, 21);
+   color: white;
+   text-align: center;
+   font-family: 'Roboto Slab', serif;
+   font-size: 15px;
+}
+
+a.active,a:hover {
+   background:rgb(27, 82, 21);;
+   transition: 0.5s;
+}
+
+.search {
+   width: 100%;
+   position: relative;
+   display: flex;
+   }
+   .searchTerm {
+   width: 100%;
+   border: 3px solid rgb(25, 0, 44);
+   border-right: none;
+   padding: 5px;
+   height: 20px;
+   border-radius: 5px 0 0 5px;
+   outline: none;
+   }
+   .searchTerm:focus{
+   color: rgb(25, 0, 44);
+   }
+   .searchButton {
+   width: 40px;
+   height: 36px;
+   border: 1px solid rgb(25, 0, 44);
+   background: rgb(25, 0, 44);
+   text-align: center;
+   color: #eeeeee;
+   border-radius: 0 5px 5px 0;
+   cursor: pointer;
+   font-size: 20px;
+   }
+   .wrap{
+   width: 40%;
+   position: absolute;
+   top: 40px;
+   left: 70%;
+   transform: translate(-50%, -50%);
+   }
+
+
+
+   
+
+
+
+
+
+   
